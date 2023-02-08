@@ -1,0 +1,37 @@
+Construindo o alura Midia
+
+Objetivo : Reproduzir som de acordo com as teclas pressionadas pelo o usuário
+que são de sons diferentes.
+
+Curso : JavaScript para web => crie páginas dinâmicas;
+
+Aprendizado adquerido :
+
+-Como usar o dom para buscar id ou classe :
+
+	Exemplo : querySelector => buscar um um elemento no html
+		     uso => document.querySelector("#id") :
+			 pode ser usado para buscar id ou classe;
+
+*Também foi utilizado o querySelectorAll, que sera devolvido a lista de teclas em uma nodeList
+com isso, podemos acessar cada e saber qual tecla esta sendo pressionada pelo usuario.
+
+ex : document.querySelectorAll(".tecla");
+
+*Para acessar cada botão e adicionar um click, podemos utilizar uma estrutura de repetição
+na lista de teclas;
+
+ex : 
+let cont = 0;
+while(cont < lista.length){
+	cont += 1;
+
+}
+
+*Podemos usar o classList para saber quais são as classes de uma tag no html.
+
+-Eventos do DOM
+
+-onclick => evento referente quando o usuário clica em um botão e podemos realizar uma ação;
+-onkeydown => funciona quando pressionar uma tecla e soltar;
+-onkeyup => quando deixar de pressionar uma tecla
